@@ -1,0 +1,69 @@
+/*Image 1 HTML SVG Styling*/
+.html{
+
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/*Image 2 CSS SVG Styling*/
+
+div{
+  width: 271px;
+  height: 143px;
+  background-image: url(asset/img-3.svg);
+  background-size: cover;
+  background-color: rebeccapurple;
+  border: 8px solid sandybrown;
+  
+}
+
+@media only screen and (max-width: 600px){
+
+  .html {
+    background-color: coral;
+  }
+
+  div {
+    
+    background-color: red;
+    border: 8px solid rgb(110, 152, 14);
+  }
+}
+/*Image 3 Design */
+
+svg{
+
+  width: 414px;
+  height: 325px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.a1 {
+  stroke: brown;
+  stroke-width: 2px;
+}
+
+.a2{
+  stroke:darkblue;
+  stroke-width: 2.5px;
+}
+
+.a4{
+  stroke: rgb(73, 7, 62);
+  stroke-width: 3px;
+}
+
+.a5{
+  stroke: rgb(194, 63, 11);
+  stroke-width: 4px;
+}
+
+.a6{
+  stroke: rgb(3, 43, 66);
+  stroke-width: 4px;
+}
